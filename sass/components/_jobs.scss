@@ -1,0 +1,23 @@
+.jobs {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 94px;
+  position: relative;
+}
+
+.jobs__description {
+  position: absolute;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 700;
+  color: var(--white);
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

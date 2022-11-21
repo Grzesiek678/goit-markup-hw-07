@@ -1,0 +1,21 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: var(--lightblue);
+  font-size: 31px;
+  display: flex;
+  margin-right: 93px;
+}
+
+.logo__footer {
+  margin-right: 0px;
+}
+.logo__primary {
+  color: var(--lightblue);
+}
+.logo__secondary {
+  color: #212121;
+}
+.logo__secondary--footer {
+  color: var(--white);
+}
