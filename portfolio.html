@@ -17,46 +17,41 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="card__header">
-      <div class="card__wrapper container">
-        <div class="card__logo">
-          <a class="logo" href="">
-            <span class="logo__primary"> Web</span
-            ><span class="logo__secondary">Studio</span></a
-          >
-        </div>
-
-        <nav class="card__navi">
-          <ul class="card__tab">
+    <header class="header header__portfolio">
+      <div class="container container__header">
+        <a class="logo" href="">
+          <span class="logo__primary"> Web</span
+          ><span class="logo__secondary">Studio</span></a
+        >
+        <nav class="nav">
+          <ul class="nav__tab">
             <li>
-              <a
-                class="card__agencja card__agencja--underline"
-                href="./index.html"
+              <a class="nav__list nav__list--underline" href="./index.html"
                 >Agencja</a
               >
             </li>
             <li>
-              <a
-                class="card__portfolio card__portfolio--line"
-                href="./portfolio.html"
+              <a class="nav__list nav__list--line" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
-            <li><a class="card__kontakt" href="">Kontakt</a></li>
+            <li>
+              <a class="nav__list nav__list--underline" href="">Kontakt</a>
+            </li>
           </ul>
 
-          <ul class="card__contact">
+          <ul class="contact">
             <li>
-              <a class="card__mail" href="mailto:info@devstudio.com">
-                <svg class="card__contact--icons" width="16" height="12">
+              <a class="contact__mail" href="mailto:info@devstudio.com">
+                <svg class="contact__icons" width="16" height="12">
                   <use href="./images/icons/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="card__tel" href="telto:+48111111111">
-                <svg class="card__contact--icons" width="16" height="12">
+              <a class="contact__tel" href="telto:+48111111111">
+                <svg class="contact__icons" width="16" height="12">
                   <use href="./images/icons/icons.svg#icon-smartphone"></use>
                 </svg>
                 +48 111 111 111</a
@@ -68,35 +63,35 @@
     </header>
     <main>
       <section class="container">
-        <ul class="card__button-positioning">
+        <ul class="filter-button">
           <li>
-            <button class="card__filter-button" type="button">Wszystkie</button>
+            <button class="filter-button__list" type="button">Wszystkie</button>
           </li>
           <li>
-            <button class="card__filter-button" type="button">Strony</button>
+            <button class="filter-button__list" type="button">Strony</button>
           </li>
           <li>
-            <button class="card__filter-button" type="button">Aplikacje</button>
+            <button class="filter-button__list" type="button">Aplikacje</button>
           </li>
           <li>
-            <button class="card__filter-button" type="button">Dizajn</button>
+            <button class="filter-button__list" type="button">Dizajn</button>
           </li>
           <li>
-            <button class="card__filter-button" type="button">Marketing</button>
+            <button class="filter-button__list" type="button">Marketing</button>
           </li>
         </ul>
       </section>
       <section class="container">
-        <ul class="card__net">
-          <li class="net__object">
-            <div class="net__image--hover">
+        <ul class="net">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio1.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -108,15 +103,15 @@
               <p class="net__desctiption">Strona internetowa</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio2.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -128,15 +123,15 @@
               <p class="net__desctiption">Dizajn</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio3.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -148,15 +143,15 @@
               <p class="net__desctiption">Aplikacja</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio4.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -168,15 +163,15 @@
               <p class="net__desctiption">Marketing</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio5.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -188,15 +183,15 @@
               <p class="net__desctiption">Aplikacja</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio6.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -208,15 +203,15 @@
               <p class="net__desctiption">Strona internetowa</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio7.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -228,15 +223,15 @@
               <p class="net__desctiption">Dizajn</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio8.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -248,15 +243,15 @@
               <p class="net__desctiption">Marketing</p>
             </div>
           </li>
-          <li class="net__object">
-            <div class="net__image--hover">
+          <li class="net__list">
+            <div class="net__image">
               <img
                 src="./images/portfolio9.jpg"
                 alt="laptop"
                 width="370"
                 height="294"
               />
-              <div class="net__text--hover">
+              <div class="net__text">
                 Technocrack jest popularną platformą wykorzystywaną do
                 rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę
                 do celów szpiegowskich i ataków na niezabezpieczone serwery
@@ -271,30 +266,30 @@
         </ul>
       </section>
     </main>
-    <footer class="card__footer">
-      <div class="container container--footer">
+    <footer class="footer">
+      <div class="container container__footer">
         <div>
           <span>
-            <a class="logo" href="">
+            <a class="logo logo__footer" href="">
               <span class="logo__primary">Web</span
               ><span class="logo__secondary logo__secondary--footer"
                 >Studio</span
               ></a
             >
           </span>
-          <address class="card__address">
+          <address class="footer__address">
             m. Warszawa, Aleje Jerozolimskie 21<br />
             <a class="mail" href="mailto:info@example.com">info@example.com</a>
             <br />
             <a class="telelephone" href="telto:+48111111111">+48 111 111 111</a>
           </address>
         </div>
-        <div class="card__socialblock">
+        <div class="footer__socialblock">
           DOŁĄCZ DO NAS
-          <ul class="picture__links picture__links--footer">
+          <ul class="social-links social-links__footer">
             <li>
               <svg
-                class="picture__svg picture__svg--footer"
+                class="social-links__svg social-links__svg--footer"
                 width="44"
                 height="44"
               >
@@ -303,7 +298,7 @@
             </li>
             <li>
               <svg
-                class="picture__svg picture__svg--footer"
+                class="social-links__svg social-links__svg--footer"
                 width="44"
                 height="44"
               >
@@ -312,7 +307,7 @@
             </li>
             <li>
               <svg
-                class="picture__svg picture__svg--footer"
+                class="social-links__svg social-links__svg--footer"
                 width="44"
                 height="44"
               >
@@ -321,7 +316,7 @@
             </li>
             <li>
               <svg
-                class="picture__svg picture__svg--footer"
+                class="social-links__svg social-links__svg--footer"
                 width="44"
                 height="44"
               >
@@ -330,7 +325,7 @@
             </li>
           </ul>
         </div>
-        <form class="card__newsletter">
+        <form class="newsletter">
           <label
             ><h5 class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</h5>
             <input
@@ -340,7 +335,7 @@
               id="newsletter"
               placeholder="E-mail"
           /></label>
-          <button type="submit" class="primarybutton primarybutton--footer">
+          <button type="submit" class="primary-button primary-button__footer">
             Zapisz się
             <svg width="24" height="24" class="newsletter__icon">
               <use href="./images/icons/icons.svg#icon-send"></use>
