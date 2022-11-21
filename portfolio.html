@@ -279,9 +279,13 @@
           </span>
           <address class="footer__address">
             m. Warszawa, Aleje Jerozolimskie 21<br />
-            <a class="mail" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer__mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
             <br />
-            <a class="telelephone" href="telto:+48111111111">+48 111 111 111</a>
+            <a class="footer__telelephone" href="telto:+48111111111"
+              >+48 111 111 111</a
+            >
           </address>
         </div>
         <div class="footer__socialblock">
@@ -326,21 +330,22 @@
           </ul>
         </div>
         <form class="newsletter">
-          <label
-            ><h5 class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</h5>
+          <label>
+            <h5 class="newsletter__title">ZAPISZ SIĘ DO NEWSLETTERA</h5>
             <input
               type="email"
               class="newsletter__input"
               name="email"
               id="newsletter"
               placeholder="E-mail"
-          /></label>
+            />
+          </label>
           <button type="submit" class="primary-button primary-button__footer">
             Zapisz się
-            <svg width="24" height="24" class="newsletter__icon">
+            <svg width="24" height="24" class="newsletter__icon-hidden">
               <use href="./images/icons/icons.svg#icon-send"></use>
             </svg>
-            <svg width="24" height="24" class="newsletter__icon--support">
+            <svg width="24" height="24" class="newsletter__icon">
               <use href="./images/icons/icons.svg#icon-send"></use>
             </svg>
           </button>

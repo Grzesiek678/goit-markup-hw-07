@@ -443,12 +443,12 @@ h2 {
   max-width: 246px;
   margin-right: 0;
 }
-.mail {
+.footer__mail {
   text-decoration: none;
   color: var(--white);
 }
 
-.telelephone {
+.footer__telelephone {
   text-decoration: none;
   color: var(--white);
   margin-top: 9px;
@@ -523,21 +523,23 @@ h2 {
   border-color: var(--lightblue);
 }
 
-.primarybutton__footer {
+.primary-button__footer {
   margin-left: 12px;
   position: relative;
+  bottom: -4px;
 }
 
-.newsletter__icon {
+.newsletter__icon-hidden {
   visibility: hidden;
   fill: var(--white);
   top: 2px;
 }
-.newsletter__icon--support {
+.newsletter__icon {
   position: absolute;
   fill: var(--white);
   top: 14px;
   right: 28px;
+  z-index: 2;
 }
 
 /* !MODAL! */
