@@ -23,11 +23,6 @@
   }
 }
 
-.contact__icons {
-  --color2: #757575;
-  --color5: #757575;
-}
-
 .contact__tel {
   color: #757575;
   text-decoration: none;
@@ -41,5 +36,11 @@
   &:hover,
   &:focus {
     color: var(--lightblue);
+    fill: var(--lightblue);
   }
+}
+
+.contact__icons {
+  --color2: #757575;
+  --color5: #757575;
 }
