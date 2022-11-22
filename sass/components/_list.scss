@@ -6,20 +6,20 @@
   max-width: 1170px;
   align-content: space-between;
   gap: 30px;
-}
 
-.list__svg {
-  height: 120px;
-  width: 270px;
-  background-color: rgba(245, 244, 250, 1);
-  border-radius: 4px;
-  margin-top: 94px;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  padding-left: 102.34px;
-}
+  &__svg {
+    height: 120px;
+    width: 270px;
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    margin-top: 94px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 102.34px;
+  }
 
-.list__text {
-  margin-top: 10px;
+  &__text {
+    margin-top: 10px;
+  }
 }

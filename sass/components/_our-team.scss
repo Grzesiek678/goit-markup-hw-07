@@ -3,24 +3,24 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.our-team__picture {
-  background-color: white;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-}
+  &__picture {
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
 
-.our-team__name {
-  font-size: 16px;
-  text-align: center;
-}
-.our-team__job {
-  color: #757575;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 16px;
+  &__name {
+    font-size: 16px;
+    text-align: center;
+  }
+  &__job {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
 }

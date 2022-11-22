@@ -5,17 +5,17 @@
   font-size: 31px;
   display: flex;
   margin-right: 93px;
-}
 
-.logo__footer {
-  margin-right: 0px;
-}
-.logo__primary {
-  color: var(--lightblue);
-}
-.logo__secondary {
-  color: #212121;
-}
-.logo__secondary--footer {
-  color: var(--white);
+  &__footer {
+    margin-right: 0px;
+  }
+  &__primary {
+    color: var(--lightblue);
+  }
+  &__secondary {
+    color: #212121;
+  }
+  &__secondary--footer {
+    color: var(--white);
+  }
 }

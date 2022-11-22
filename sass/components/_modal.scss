@@ -8,13 +8,13 @@
   position: relative;
   padding: 40px;
   display: block;
-}
 
-.modal__close {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  cursor: pointer;
+  &__close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+  }
 }

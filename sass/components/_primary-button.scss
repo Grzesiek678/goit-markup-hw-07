@@ -8,13 +8,25 @@
   font-weight: 700;
   cursor: pointer;
   border-radius: 4px;
+
+  &__footer {
+    margin-left: 12px;
+    position: relative;
+    padding-bottom: 9px;
+  }
+  &__modal {
+    margin-top: 30px;
+    letter-spacing: 0.06rem;
+    line-height: 30px;
+  }
 }
 
 .primary-button__transition {
   transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.primary-button__transition:hover,
-.primary-button__transition:focus {
-  background-color: var(--white);
-  color: var(--lightblue);
+
+  &:hover,
+  &:focus {
+    background-color: var(--white);
+    color: var(--lightblue);
+  }
 }
